@@ -14,6 +14,7 @@ var personaStruct = {
 	estado:''
 }
 //
+///////////
 
 //Aqui insertamos un registro sin utilizar post man
 personaCollection.push(
