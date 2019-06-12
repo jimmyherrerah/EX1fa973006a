@@ -32,6 +32,8 @@ personaCollection.push(
 );
 //
 
+///
+
 //Aqui buscamos por medio del metodo Get este busca dependiendo del ID que se utilice
 router.get('/:id', (req, res, next)=>{
 	if(!req.params.id) return next();
