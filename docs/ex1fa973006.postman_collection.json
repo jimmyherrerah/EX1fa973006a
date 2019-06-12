@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "27265438-6965-461d-9219-3c1c6b40fbf2",
+		"name": "ex1fa973006",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/recetas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/recetas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"recetas"
+					]
+				},
+				"description": "Creando metodo GET ALL"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/recetas",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "receta",
+							"value": "Enchilas",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "Cap",
+							"type": "text"
+						},
+						{
+							"key": "observacion",
+							"value": "te enchilas",
+							"type": "text"
+						},
+						{
+							"key": "estado",
+							"value": "Lista",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/recetas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"recetas"
+					]
+				},
+				"description": "creacion de metodo post para guardar una receta"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/recetas",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "receta",
+							"value": "hamburguesa ",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "'190',",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "'Gourmet',",
+							"type": "text"
+						},
+						{
+							"key": "observacion",
+							"value": "'hamburgesota',",
+							"type": "text"
+						},
+						{
+							"key": "estado",
+							"value": "'En proceso'",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/recetas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"recetas"
+					]
+				},
+				"description": "creacion del metodo post"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/recetas/1735df2b-60ae-4c59-9fec-e72c6243be63",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/recetas/1735df2b-60ae-4c59-9fec-e72c6243be63",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"recetas",
+						"1735df2b-60ae-4c59-9fec-e72c6243be63"
+					]
+				},
+				"description": "metodo delete"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/recetas/d3653e3f-14ba-4b5d-94c3-de415ed9e83d",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/recetas/d3653e3f-14ba-4b5d-94c3-de415ed9e83d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"recetas",
+						"d3653e3f-14ba-4b5d-94c3-de415ed9e83d"
+					]
+				},
+				"description": "metodo get ID"
+			},
+			"response": []
+		}
+	]
+}
